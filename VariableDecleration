@@ -12,3 +12,5 @@ const c=5;
 console.log(c+b)
 //const c=32;
 console.log(c+aa)
+
+//console.log(aa+aa)
