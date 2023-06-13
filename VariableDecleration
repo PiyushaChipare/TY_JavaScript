@@ -1,0 +1,14 @@
+var aa=100;
+aa=10;
+var aa=63;
+//console.log(aa)
+
+let b=10;
+b=45;
+console.log(b)
+
+const c=5;
+//c=6;
+console.log(c+b)
+//const c=32;
+console.log(c+aa)
