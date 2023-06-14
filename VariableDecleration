@@ -1,6 +1,6 @@
 var aa=100;
 aa=10;
-var aa=63;
+var aa=true;
 //console.log(aa)
 
 let b=10;
@@ -15,3 +15,9 @@ console.log(c+aa)
 
 console.log(aa+aa)
 console.log(aa*aa)
+
+//console.log(z)
+ var z=null
+//let z;
+
+console.log(typeof(z))

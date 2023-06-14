@@ -1,0 +1,8 @@
+JavaScript History
+It was founded in 1995 by Brendan Eich for Netspace2.
+Earlier it name was LiveScript
+
+Types of Programming languages
+1.High level language          -> Language under
+2.Assembly level language
+3.Machine level language
