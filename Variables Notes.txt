@@ -1,8 +1,62 @@
-JavaScript History
+***JavaScript History
 It was founded in 1995 by Brendan Eich for Netspace2.
 Earlier it name was LiveScript
+---------------------------------------------------------------------------
 
-Types of Programming languages
-1.High level language          -> Language under
-2.Assembly level language
-3.Machine level language
+***Types of Programming languages
+1.High level language          -> Language understabdable by human
+2.Assembly level language      -> Language consists of abbrevations 
+3.Machine level language       -> Binary language consists of 0s and 1s
+---------------------------------------------------------------------------
+
+***Translators
+Assembler   ->It converts Assembly level language to Machine level language
+Compiler    ->It converts High level language to Machine level language
+Interpriter ->It converts High level language to Machine level language
+---------------------------------------------------------------------------
+
+           Compiler                    Interpriter
+1.It does syntax parsing of      1.It does syntax parsing line by line
+  object or .exe file created      in code written
+
+2.It consumes memory             2.It doesnot consumes memory
+
+3.It is fast                     3. It is slow
+---------------------------------------------------------------------------
+
+***JavaScript Engines(Interpriter)
+Chrome ->V8
+Firefox -> Spidermonkey
+Edge -> Chakra
+Safari -> JavaScriptCore
+---------------------------------------------------------------------------
+
+***Variable Decleration
+Variable can be declared in 3 ways using var, let, const
+    var can be re-Declared & re-Initialized
+    let can not be re-Declared but can be re-Initialized
+    const can neither be re-Declared nor re-Initialized
+---------------------------------------------------------------------------
+
+***Data Types
+            Primitive               NonPrimitive
+1.number                           1.array
+2.string                           2.object
+3.undefined                        3.function
+4.null
+5.boolean
+
+To check the data type of a variable "typeof" OPERATOR is used
+Example: var a='name';
+       i/p typeof(a) -->> o/p string
+---------------------------------------------------------------------------
+
+***Variable Hoisting
+Hoisting is the process whereby the interpreter appears to move the
+decleration to the top of code before execution
+Initialization is not hoisted but only decleration is hoisted
+
+Hoisting of var results in UNDEFINED
+Hoisting of let results in REFERANCEERROR
+Hoisting of const results in REFERANCEERROR
+---------------------------------------------------------------------------
