@@ -11,7 +11,6 @@ const c=30;
     console.log(m);
     console.log(n);
     console.log(o);  
-
 }
 function nn()
 {
