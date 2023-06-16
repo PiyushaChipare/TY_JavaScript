@@ -1,4 +1,4 @@
-var num=5
+var num=2
 switch(num)
 {
     case 1:
@@ -8,7 +8,5 @@ switch(num)
     console.log(5)
     break;
     default:
-        Text("nothing is present")
+        console.log("nothing is present");
 }
-
-
